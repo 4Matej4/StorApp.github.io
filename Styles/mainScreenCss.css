@@ -75,17 +75,17 @@ a:visited {
 }
 
 .record {
-    background-image: url('Assets/record.png');
+    background-image: url('../Assets/record.png');
 }
 
 .barn {
-    background-image: url('Assets/barn.png');
+    background-image: url('../Assets/barn.png');
 }
 
 .crop {
-    background-image: url('Assets/crop.png');
+    background-image: url('../Assets/crop.png');
 }
 
 .farm{
-    background-image: url('Assets/field.png');
+    background-image: url('../Assets/field.png');
 }
