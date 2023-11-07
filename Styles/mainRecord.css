@@ -34,7 +34,7 @@ header {
     
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/Public/Assets/left-arrow.png');
+    background-image: url('Assets/left-arrow.png');
 }
 
 .back_arrow:hover{
@@ -142,10 +142,10 @@ main {
     max-width: 20rem;
 }
 .edit{
-    background-image: url('/Public/Assets/edit.png');
+    background-image: url('Assets/edit.png');
 }
 
 .delete{
-    background-image: url('/Public/Assets/trash.png');
+    background-image: url('Assets/trash.png');
 }
 

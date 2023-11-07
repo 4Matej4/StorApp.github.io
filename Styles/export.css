@@ -37,7 +37,7 @@ header {
 
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/Public/Assets/left-arrow.png');
+    background-image: url('Assets/left-arrow.png');
 }
 
 .back_arrow:hover {
