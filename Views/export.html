@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="/Public/Styles/export.css">
+    <link rel="stylesheet" href="Public/Styles/export.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <a class="back_arrow" href="./mainRecord.html"></a>
+        <a class="back_arrow" href="mainRecord.html"></a>
         <p id="heading">Exportovanie záznamov</p>
     </header>
     <main>
@@ -27,14 +27,7 @@
         </div>
         <table id="tableData">
             <thead id="tableHead">
-                <!-- <tr>
-                    <th> Názov poľa </th>
-                    <th> Výmera poľa </th>
-                    <th> Dovezené množstvo </th>
-                    <th> Vysiata plodina </th>
-                    <th> Odroda plodiny </th>
-                    <th> Priemerný výnos </th>
-                </tr> -->
+              
             </thead>
             <tbody id="tableBody">
 
@@ -43,13 +36,13 @@
         <button id="excelExport">Export to excel</button>
 
 
-        <script src="/Public/Scripts/table2excel.js"></script>
+        <script src="Public/Scripts/table2excel.js"></script>
         <script>document.getElementById("excelExport").addEventListener('click', function() {
             let table2excel = new Table2Excel();
             table2excel.export(document.getElementById("tableData"));
         })</script>
 
-        <script src="/Public/Scripts/exports/exports.js"></script>
+        <script src="Public/Scripts/exports/exports.js"></script>
         
     </main>
 </body>
