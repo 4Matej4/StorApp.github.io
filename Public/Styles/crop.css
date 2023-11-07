@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 75rem;
+    height: 6.25rem;
+
+    padding: 0 6.25rem;
+    display: flex;
+    align-items: center;  
+    justify-content: center;  
+}
+
+#heading {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.back_arrow{
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('/Public/Assets/left-arrow.png');
+}
+
+.back_arrow:hover{
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+
+main {
+    width: 75rem;
+    height: 50rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crop_form{
+    width: 37.5rem;
+    height: 43.75rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputfield {
+   height: 4rem;
+   margin-bottom: 2rem;
+}
+
+.inputfield label{
+    display: block;
+    font-size: 2rem;
+}
+
+.crop_form input{
+    width: 25rem;
+    height: 2.5rem;
+    padding: 0 .625rem;
+
+    font-size: 2rem;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.crop_form input[type=submit]{
+    margin-top: 3.25rem;
+}
+.recordBtn {
+    width: 25rem;
+    height: 2.5rem;
+    padding: 0 .625rem;
+    margin-top: 2rem;
+
+    font-size: 1.8rem;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.crop_list {
+    width: 25rem;
+    height: 43.75rem;
+
+    border: 1px solid green;
+    overflow: auto;
+}
+
+.record_icon{
+    width: 20px;
+    height: 20px;
+    
+    margin-left: auto;
+    border: none;
+    display: inline-block;
+    background-size: cover;
+}
+
+#history_list{
+    list-style-type: none;
+    padding: 0 1rem;
+}
+#history_list li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    height: 40px;
+}
+.icons{
+    margin-left: auto;
+}
+
+.edit{
+    background-image: url('/Public/Assets/edit.png');
+}
+
+.delete{
+    background-image: url('/Public/Assets/trash.png');
+}
+
+
+.submitButton{
+    width: 25rem;
+    font-size: 1.75rem;  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.submitButton:hover{
+    background-color: rgb(57, 118, 57);
+}
+
+.submitButtonError{
+    width: 25rem;
+    font-size: 1.75rem;  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 1px solid gray;
+    border-radius: 10px;
+
+    background-color: red;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/Public/Styles/mainRecord.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a class="back_arrow" href="/mainScreen.html"></a>
+        <p id="heading">Záznamy</p>
+    </header>
+    <main>
+        <div class="record_form">
+            <form action="" id="record_setter">
+                <div class="inputfield">
+                    <label for="field_name">Názov poľa:</label>
+                    <select name="field_name" id="field_name">
+                        <option value="">Vyber pole</option>
+                    </select>
+                </div>
+                <div class="inputfield">
+                    <label for="crop_name">Názov plodiny a odrody:</label>
+                    <select name="crop_name" id="crop_name">
+                        <option value="">Vyber plodinu a odrodu</option>
+                    </select>
+                </div>
+                <div class="inputfield">
+                    <label for="storage_name">Sklad:</label>
+                    <select name="storage_name" id="storage_name">
+                        <option value="">Vyber sklad</option>
+                    </select>
+                </div>
+                <div class="inputfield">
+                    <label for="imported_amount">Dovezené množstvo:</label>
+                    <input type="text" name="imported_amount" id="imported_amount">
+                </div>
+                <div class="inputfield">
+                    <label for="cargo_moisture">Vlhkosť:</label>
+                    <input type="text" name="cargo_moisture" id="cargo_moisture">
+                </div>
+                <input type="submit" id="submit_btn" value="Uložiť" class="submitButton"></input>
+            </form>
+            <button id="clearBtn" class="recordBtn">
+                Zmazať všetky záznamy
+            </button>
+            <button id="exportBtn" class="recordBtn">
+                Exportovanie záznamov
+            </button>
+        </div>
+        <div class="record_list">
+            <ul id="history_list" class="history_list">
+               
+            </ul>
+        </div>
+    </main>
+    <script src="/Public/Scripts/addScripts/addRecord.js"></script>
+</body>
+
+</html>

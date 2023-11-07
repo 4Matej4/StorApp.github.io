@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="/Public/Styles/storage.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a class="back_arrow" href="/mainScreen.html"></a>
+        <p id="heading">Sklady</p>
+    </header>
+    <main>
+        <div class="storage_form">
+            <form action="" id="storage_setter">
+                <div class="inputfield">
+                    <label for="storage_name">Názov skladu:</label>
+                    <input type="text" name="storage_name" id="storage_name">
+                </div>
+                <input type="submit" id="submit_btn" value="Uložiť" class="submitButton"></input>
+            </form>
+            <button id="clearBtn"class="recordBtn">
+                Zmazať všetky záznamy
+            </button>
+        </div>
+        <div class="storage_list">
+            <ul id="history_list"class="history_list">
+
+            </ul>
+        </div>
+    </main>
+    <script src="/Public/Scripts/addScripts/addStorage.js"></script>
+</body>
+
+</html>

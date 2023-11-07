@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 75rem;
+    height: 6.25rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#topic{
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.wrapper {
+    width: 50rem;
+    height: 50rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.container {
+    width: 22rem;
+    height: 22rem;
+    
+    border: 5px solid black;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container:hover{
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+    box-shadow: .8rem .8rem rgb(102, 191, 161);
+}
+
+.container p{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+
+.box{
+    width: 70%;
+    height: 70%;
+
+    display: inline-block;
+
+    background-size: cover;
+}
+
+.record {
+    background-image: url('/Public/Assets/record.png');
+}
+
+.barn {
+    background-image: url('/Public/Assets/barn.png');
+}
+
+.crop {
+    background-image: url('/Public/Assets/crop.png');
+}
+
+.farm{
+    background-image: url('/Public/Assets/field.png');
+}

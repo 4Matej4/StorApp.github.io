@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: 'AR One Sans', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    width: 75rem;
+    height: 6.25rem;
+
+    padding: 0 6.25rem;
+    display: flex;
+    align-items: center;  
+    justify-content: center;  
+}
+#heading {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.back_arrow{
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('/Public/Assets/left-arrow.png');
+}
+
+.back_arrow:hover{
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+
+main {
+    width: 75rem;
+    height: 50rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.storage_form{
+    width: 37.5rem;
+    height: 43.75rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+}
+
+.inputfield {
+   height: 4rem;
+   margin-bottom: 2rem;
+}
+
+.inputfield label{
+    display: block;
+    font-size: 2rem;
+}
+.storage_form input[type=submit]{
+    margin-top: 1.25rem;
+}
+.storage_form input{
+    width: 25rem;
+    height: 2.5rem;
+    padding: 0 .625rem;
+
+    font-size: 2rem;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+
+.recordBtn {
+    width: 25rem;
+    height: 2.5rem;
+    padding: 0 .625rem;
+    margin-top: 2rem;
+
+    font-size: 1.8rem;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.storage_list {
+    width: 25rem;
+    height: 43.75rem;
+
+    border: 1px solid green;
+    overflow: auto;
+}
+
+.even {
+    background-color: aquamarine;
+}
+
+.record_icon{
+    width: 22px;
+    height: 22px;
+    
+    border: none;
+    display: inline-block;
+    background-size: cover;
+
+    margin-left: auto;
+}
+
+.history_list{
+    list-style-type: none;
+}
+.history_list li{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 45px;
+    padding: 0 1.5rem;
+}
+
+
+
+.edit{
+    background-image: url('/Public/Assets/edit.png');
+}
+
+.delete{
+    background-image: url('/Public/Assets/trash.png');
+}
+
