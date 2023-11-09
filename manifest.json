@@ -1,0 +1,17 @@
+{
+    "lang": "en-us",
+    "name": "HarvestTracker",
+    "short_name": "HarvestTracker",
+    "description": "A basic app that stores records about imported crops from fields",
+    "start_url": "/",
+    "background_color": "#2f3d58",
+    "theme_color": "#2f3d58",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/harvester.png",
+            "sizes": "512x512"
+        }
+    ]
+}
