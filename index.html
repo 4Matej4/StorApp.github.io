@@ -14,9 +14,16 @@
     <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;600&display=swap" rel="stylesheet">
 
     <link rel="manifest" href="manifest.json">
+    
 </head>
 
 <body>
+
+    <script>
+        if('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('sw.js', { scope: '/' });
+        }
+        </script>
     <header>
         <a href="index.html" id="topic">Žatva</a>
     </header>
